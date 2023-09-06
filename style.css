@@ -1,0 +1,68 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #7176FF;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10rem;
+    position: relative;
+}
+
+.container .head-img img {
+    max-width: 542px;
+}
+
+.container .cta .cta-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container .cta .cta-btn {
+    width: 270px;
+    height: 51px;
+    border-radius: 10px;
+    line-height: 51px;
+    background-color: #FF7171;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3vh;
+}
+
+.absolute-card {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -50px;
+}
+
+.absolute-card img {
+    width: 260px;
+    height: 101px;
+}
+
+.absolute-card img:nth-child(2){
+    margin: 0 50px;
+}
+
+
+
